@@ -22,6 +22,7 @@ public class UserController {
     public List<UmsMemberReceiveAddress> getReceiveAddressByMemberId(String memberId){
 
         List<UmsMemberReceiveAddress> umsMemberReceiveAddresses=userService.getReceiveAddressByMemberId(memberId);
+        String str=null;
         return  umsMemberReceiveAddresses;
     }
 
