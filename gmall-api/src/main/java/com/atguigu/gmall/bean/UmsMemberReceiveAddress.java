@@ -1,4 +1,4 @@
-package com.atguigu.gmall.user.bean;
+package com.atguigu.gmall.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;
@@ -8,8 +8,8 @@ public class UmsMemberReceiveAddress implements Serializable {
     @Id
     private String id;
     private String memberId;
-    private String  name;
-    private String  phoneNumber;
+    private String name;
+    private String phoneNumber;
     private int defaultStatus;
     private String postCode;
     private String province;
